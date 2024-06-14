@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+    margin: 0;
+}
+
+.container, .congratulations-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-container {
+    position: relative;
+    margin: 10px;
+}
+
+.congratulations {
+    font-size: 100px;
+    color: green;
+    text-align: center;
+}
